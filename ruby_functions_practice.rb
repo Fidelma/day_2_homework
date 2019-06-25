@@ -91,3 +91,12 @@ end
 
 
 end
+
+def volume_of_cube(h,w,d)
+  return h * w * d
+end
+
+def volume_of_sphere(r)
+  pi = 3.1415
+  return (4 / 3) * pi * (r ** 3)
+end
