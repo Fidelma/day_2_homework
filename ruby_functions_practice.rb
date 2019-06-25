@@ -102,7 +102,5 @@ def volume_of_sphere(r)
 end
 
 def fahrenheit_to_celsius(temp_fahrenheit)
-  return (temp_fahrenheit - 32) * (5.0/9.0)
+  return ((temp_fahrenheit - 32) * (5.0/9.0)).round(2)
 end
-
-p fahrenheit_to_celsius(50)
