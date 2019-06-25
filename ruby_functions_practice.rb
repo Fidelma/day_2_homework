@@ -100,3 +100,9 @@ def volume_of_sphere(r)
   pi = 3.1415
   return (4 / 3) * pi * (r ** 3)
 end
+
+def fahrenheit_to_celsius(temp_fahrenheit)
+  return (temp_fahrenheit - 32) * (5.0/9.0)
+end
+
+p fahrenheit_to_celsius(50)

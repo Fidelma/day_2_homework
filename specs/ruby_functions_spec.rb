@@ -93,7 +93,8 @@ end
 
   #Given a value in farenheit, convert this into celsius.
   def test_fahrenheit_to_celsius()
-    #add test code here
+    test_temp = fahrenheit_to_celsius(50)
+    assert_equal(10, test_temp)
   end
 
 
