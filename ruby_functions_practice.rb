@@ -44,6 +44,18 @@ def number_to_full_month_name(num)
     "May"
   when 6
     "June"
+  when 7
+    "July"
+  when 8
+    "August"
+  when 9
+    "September"
+  when 10
+    "October"
+  when 11
+    "November"
+  when 12
+    "December"
   end
   return month
 end
